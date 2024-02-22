@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>count</title>
+    <title>counter</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
     <div id="counter">
-        <p id="count"></p>
-        <button onclick="incr()">+</button>
-        <button onclick="decr()">-</button>
+        <p id="count">0</p>
+        <div id="eo">
+            <p>even</p>
+        </div>
+        <div id="button">
+            <button onclick=incr()>+</button>
+            <button onclick=decr()>-</button>
+            <button onclick=reset()>reset</button>
+        </div>
     </div>
     <script type="text/javascript" src="./session35.js"></script>
 </body>

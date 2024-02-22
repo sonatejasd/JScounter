@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#counter{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(228, 204, 250);
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    width:20vw;
+    border-radius: 100px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#button{
+    display:flex;
+    gap: 3px;
+    align-items: end;
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 3px;
+    height: 30px;
+}
+
+#count{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    padding: 30px 40px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+#eo{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 2px 10px;
+}
+
